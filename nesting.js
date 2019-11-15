@@ -175,7 +175,7 @@ function recordCleaner(){
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-// var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
+var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
 // Do not edit the code above.
 
 /*
@@ -190,7 +190,7 @@ function recordCleaner(){
 //Code Here
 function looper(){
   //modifying code below to pass the test
-  var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
+  // var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
   //modifying code above to pass the test
   numsArr.forEach(function(arr, ind, numA){
     arr.forEach(function(v, i, a) {
@@ -199,5 +199,5 @@ function looper(){
   })
   return numsArr;
 }
-looper();
+//looper();
 
